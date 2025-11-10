@@ -135,8 +135,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "⏱️ *Сроки:* 2-5 дней\n"
             "💵 *Стоимость:* от 1,500₽\n\n"
             "📞 *Для заказа:*\n"
-            "Telegram: @your_username\n"
-            "Email: your@email.com\n\n"
+            "Telegram: @Vova13249\n"
+            "Email: your@vovalifar80@gmail.com\n\n"
             "Выберите тип бота или свяжитесь со мной:",
             reply_markup=reply_markup,
             parse_mode='Markdown'
@@ -151,9 +151,9 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         await query.edit_message_text(
             "📞 *Мои контакты:*\n\n"
-            "💼 *Kwork:* your_kwork_link\n"
-            "📱 *Telegram:* @your_username\n"
-            "📧 *Email:* your@email.com\n"
+            "💼 *Kwork:*  https://kwork.ru/user/vovalifar80\n"
+            "📱 *Telegram:* @https://t.me/Vova13249\n"
+            "📧 *Email:*vovalifar80@gmail.com\n"
             "💻 *GitHub:* github.com/yourusername\n\n"
             "🛠️ *Специализация:*\n"
             "• Telegram боты\n"
@@ -186,3 +186,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
